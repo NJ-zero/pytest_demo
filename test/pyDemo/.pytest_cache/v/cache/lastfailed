@@ -1,0 +1,4 @@
+{
+  "demo1.py::TestAdd::()::test_add2": true,
+  "demo_rerun.py::test_random": true
+}

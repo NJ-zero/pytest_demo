@@ -1,0 +1,5 @@
+[
+  "demo_rerun.py::TestRerun::()::test_random",
+  "demo_rerun.py::TestRerun::()::test_random2",
+  "demo_rerun.py::TestRerun::()::test_example"
+]
