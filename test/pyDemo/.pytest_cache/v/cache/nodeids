@@ -1,5 +1,6 @@
 [
-  "demo_rerun.py::TestRerun::()::test_random",
-  "demo_rerun.py::TestRerun::()::test_random2",
-  "demo_rerun.py::TestRerun::()::test_example"
+  "demo_cov.py::test_pin1[\\u4f60\\u597d-ni-hao]",
+  "demo_cov.py::test_pin1[\\u4e0a\\u6d77-shang-hai]",
+  "demo_cov.py::test_initial",
+  "demo_cov.py::test_get_initials"
 ]
