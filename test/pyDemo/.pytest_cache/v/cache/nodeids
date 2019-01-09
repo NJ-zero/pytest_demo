@@ -1,6 +1,4 @@
 [
-  "demo_cov.py::test_pin1[\\u4f60\\u597d-ni-hao]",
-  "demo_cov.py::test_pin1[\\u4e0a\\u6d77-shang-hai]",
-  "demo_cov.py::test_initial",
-  "demo_cov.py::test_get_initials"
+  "demo_fixture_params.py::test_login[login0]",
+  "demo_fixture_params.py::test_login[login1]"
 ]
