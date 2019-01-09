@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8104ae2d-2ae7-4f11-a569-98e759242636" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/test/pyDemo/demo_fixture.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/pyDemo/demo_fixture_autouse.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/pyDemo/demo_fixture_decorator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/pyDemo/demo_fixture_params.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/pyDemo/.pytest_cache/v/cache/lastfailed" beforeDir="false" afterPath="$PROJECT_DIR$/test/pyDemo/.pytest_cache/v/cache/lastfailed" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/pyDemo/.pytest_cache/v/cache/nodeids" beforeDir="false" afterPath="$PROJECT_DIR$/test/pyDemo/.pytest_cache/v/cache/nodeids" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,17 +26,31 @@
       <file leaf-file-name="fixtures.py" pinned="false" current-in-tab="false">
         <entry file="file://C:/Python36/Lib/site-packages/_pytest/fixtures.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="1011" column="4" selection-start-line="1011" selection-start-column="4" selection-end-line="1011" selection-end-column="4" />
+            <state relative-caret-position="121">
+              <caret line="1038" column="25" lean-forward="true" selection-start-line="1036" selection-start-column="9" selection-end-line="1038" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="demo_fixture_params.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="171">
+                <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+              </first_editor>
+              <second_editor>
+                <markdownNavigatorState />
+              </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="demo_fixture_params.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/pyDemo/demo_fixture_params.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+            <state relative-caret-position="19">
+              <caret line="4" selection-start-line="4" selection-end-line="15" selection-end-column="24" />
               <folding>
                 <element signature="e#65#78#0" expanded="true" />
               </folding>
@@ -69,11 +78,11 @@
         <option value="$PROJECT_DIR$/test/pyDemo/demo1.py" />
         <option value="$PROJECT_DIR$/test/pyDemo/demo_ordering.py" />
         <option value="$PROJECT_DIR$/test/pyDemo/demo_cov.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/test/pyDemo/demo_fixture.py" />
         <option value="$PROJECT_DIR$/test/pyDemo/demo_fixture_decorator.py" />
         <option value="$PROJECT_DIR$/test/pyDemo/demo_fixture_autouse.py" />
         <option value="$PROJECT_DIR$/test/pyDemo/demo_fixture_params.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -304,20 +313,28 @@
       <option name="project" value="LOCAL" />
       <updated>1547025316861</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="about fixture">
+      <created>1547037111575</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1547037111575</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="2110" y="11" width="880" height="630" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3299595" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.24340771" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.20689656" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -336,23 +353,12 @@
     <MESSAGE value="ordering" />
     <MESSAGE value="readme" />
     <MESSAGE value="coverage" />
-    <option name="LAST_COMMIT_MESSAGE" value="coverage" />
+    <MESSAGE value="about fixture" />
+    <option name="LAST_COMMIT_MESSAGE" value="about fixture" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/xpinyin/Mandarin.dat">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="152">
-            <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/pyDemo/demo_cov.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -409,20 +415,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python36/Lib/site-packages/_pytest/fixtures.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="1011" column="4" selection-start-line="1011" selection-start-column="4" selection-end-line="1011" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/pyDemo/demo_fixture_params.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+        <state relative-caret-position="19">
+          <caret line="4" selection-start-line="4" selection-end-line="15" selection-end-column="24" />
           <folding>
             <element signature="e#65#78#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python36/Lib/site-packages/_pytest/fixtures.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="1038" column="25" lean-forward="true" selection-start-line="1036" selection-start-column="9" selection-end-line="1038" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="171">
+            <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
         </state>
       </provider>
     </entry>

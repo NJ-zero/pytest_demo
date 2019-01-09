@@ -7,3 +7,4 @@ pytest的demo
 - demo_ordering.py 执行顺序
 - demo_rerun.py  失败重跑
 - demo_cov.py  覆盖率
+- demo_fixture*.py  fixture相关
