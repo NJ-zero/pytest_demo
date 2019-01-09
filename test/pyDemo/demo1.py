@@ -7,7 +7,7 @@ import random
 
 
 '''
-pip install pytest-assume  ---多重校验multiple failures per test
+pip install pytest-assume  ---多重校验 multiple failures per test
 '''
 
 
@@ -18,6 +18,8 @@ class TestAdd():
 
     def test_add1(self):
         assert add(2,3)==5
+        assert add(1,3)==3
+        assert add(2,5)==7
 
     def test_add2(self):
         pytest.assume(add(1,2)==3)
