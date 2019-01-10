@@ -23,3 +23,6 @@ class Test1(object):
     def test_2(selfs):
         print("this is test2")
         assert 1+2 ==3
+
+if __name__=="__main__":
+    pytest.main(['-q','demo_fixture.py'])

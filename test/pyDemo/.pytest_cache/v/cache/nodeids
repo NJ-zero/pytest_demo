@@ -1,4 +1,4 @@
 [
-  "demo_fixture_params.py::test_login[login0]",
-  "demo_fixture_params.py::test_login[login1]"
+  "demo_fixture.py::Test1::()::test_1",
+  "demo_fixture.py::Test1::()::test_2"
 ]
