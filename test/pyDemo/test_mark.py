@@ -2,6 +2,13 @@
 # author='Shichao-Dong'
 # create time: 2019/1/10 
 
+'''
+pytest -sq -m "P0" demo_mark.py
+pytest -sq -m "P0 and cm" demo_mark.py
+
+pytest -sq -k 2 demo_mark.py
+'''
+
 import pytest
 
 @pytest.mark.dong
@@ -27,3 +34,5 @@ class Test2(object):
 
 if __name__ =="__main__":
     pytest.main(["-s","demo_mark.py","-m=P0"])
+
+
