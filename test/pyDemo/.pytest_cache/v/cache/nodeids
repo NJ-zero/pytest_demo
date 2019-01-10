@@ -1,4 +1,5 @@
 [
-  "demo_fixture.py::Test1::()::test_1",
-  "demo_fixture.py::Test1::()::test_2"
+  "demo_fixture_decorator.py::Test2::()::test_3",
+  "demo_fixture_decorator.py::Test1::()::test_1",
+  "demo_fixture_decorator.py::Test1::()::test_2"
 ]
