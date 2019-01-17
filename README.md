@@ -10,6 +10,10 @@ pytest的demo
 - test_fixture*.py  fixture相关
 - test_mark  自定义标签
 
+### report
+该文件主要存放报告
+- report.html 是 html报告
+- html/xml 是allure生成的report
 ### 一些命令
 生成html报告
 ```
@@ -30,4 +34,10 @@ pytest -sq -k 2 demo_mark.py
 pytest -sq -m "P0" demo_mark.py
 
 pytest -sq demo_fixture_decorator.py::Test2::test_3
+```
+allure report相关
+```
+pytest -s -q ./  --alluredir=../report/xml
+allure generate ../report/xml  -o ../report/hmtl --clean
+生成最终html文件
 ```

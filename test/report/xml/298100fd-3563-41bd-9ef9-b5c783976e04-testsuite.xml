@@ -1,0 +1,96 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1547642205654" stop="1547642211799">
+  <name>test</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1547642205654" status="passed" stop="1547642205659">
+      <description>
+    判断两个是否相等
+    </description>
+      <name>E:\pytest\test\allure_report.E:\pytest\test\allure_report\Demo_1.test_allure1.test_add</name>
+      <attachments/>
+      <labels>
+        <label name="story" value="story_1"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="45824-MainThread"/>
+        <label name="host" value="JFSH1000247"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1547642205659" status="passed" stop="1547642205659">
+          <name>描述</name>
+          <title>描述</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1547642205664" status="failed" stop="1547642211772">
+      <name>E:\pytest\test\allure_report.E:\pytest\test\allure_report\Demo_1.test_demo2.TestDemo2.test_cm</name>
+      <failure>
+        <message>AssertionError: assert 2 == 1
+ +  where 1 = &lt;bound method Random.randint of &lt;random.Random object at 0x0000014778150ED8&gt;&gt;(0, 3)
+ +    where &lt;bound method Random.randint of &lt;random.Random object at 0x0000014778150ED8&gt;&gt; = random.randint</message>
+        <stack-trace>self = &lt;test.allure_report.Demo_1.test_demo2.TestDemo2 object at 0x00000147793015C0&gt;
+
+    @allure.story('story_2')
+    @pytest.mark.flaky(reruns=6, reruns_delay=1)
+    def test_cm(self):
+&gt;       assert 2==random.randint(0,3)
+E       assert 2 == 1
+E        +  where 1 = &lt;bound method Random.randint of &lt;random.Random object at 0x0000014778150ED8&gt;&gt;(0, 3)
+E        +    where &lt;bound method Random.randint of &lt;random.Random object at 0x0000014778150ED8&gt;&gt; = random.randint
+
+Demo_1\test_demo2.py:13: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="story" value="story_2"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="45824-MainThread"/>
+        <label name="host" value="JFSH1000247"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1547642211782" status="passed" stop="1547642211784">
+      <name>E:\pytest\test\allure_report.E:\pytest\test\allure_report\Demo_1.test_demo2.TestDemo2_1.test_pd</name>
+      <attachments/>
+      <labels>
+        <label name="feature" value="feature_2"/>
+        <label name="story" value="story_2"/>
+        <label name="severity" value="minor"/>
+        <label name="thread" value="45824-MainThread"/>
+        <label name="host" value="JFSH1000247"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1547642211789" status="passed" stop="1547642211793">
+      <name>E:\pytest\test\allure_report.E:\pytest\test\allure_report\Demo_2.test_demo3.TestDemo3.test_cm</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="45824-MainThread"/>
+        <label name="host" value="JFSH1000247"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1547642211797" status="passed" stop="1547642211799">
+      <name>E:\pytest\test\allure_report.E:\pytest\test\allure_report\Demo_2.test_demo3.TestDemo2_1.test_pd</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="critical"/>
+        <label name="thread" value="45824-MainThread"/>
+        <label name="host" value="JFSH1000247"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
